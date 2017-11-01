@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rycardo/FBEncryptor-rycardo.git", :branch => "master", :tag => "v#{s.version}" }
   s.platform     = :ios, '10.0.0'
   s.frameworks   = 'UIKit', 'CoreGraphics'
-  s.source_files = 'FBEncryptor', 'FBEncryptor/*.{h,m}'
+  s.source_files = 'FBEncryptor-rycardo', 'FBEncryptor-rycardo/*.{h,m}'
   s.requires_arc = true
 end
